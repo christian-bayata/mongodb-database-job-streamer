@@ -7,7 +7,7 @@ import { MongoClient } from 'mongodb';
 export class JobService {
   constructor(private readonly configService: ConfigService) {}
 
-  private logger = new Logger('Main');
+  private logger = new Logger('Job');
   /**
    * @Responsibility: Cron job that runs every day by 12am to stream database collections/documents
    *
