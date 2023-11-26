@@ -1,6 +1,6 @@
 apps:
   - script: ./dist/main.js
-    name: database-streamer
+    name: mongodb-database-streamer
     watch: false
     instances: max
     exec_mode: cluster
