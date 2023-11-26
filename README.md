@@ -35,6 +35,9 @@ $ npm install
 ## Running the app
 
 ```bash
+# Start the pm2 underground process
+$ npm run start:dev-ignition
+
 # development
 $ npm run start
 
