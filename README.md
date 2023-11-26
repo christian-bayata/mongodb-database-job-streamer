@@ -61,6 +61,15 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
+Note:
+Before running on any environment you have to install pm2 globally and set the **environment variables**:
+
+```dotenv
+PORT=
+LOCAL_DB_URL=
+STAGING_DB_URL=
+```
+
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
