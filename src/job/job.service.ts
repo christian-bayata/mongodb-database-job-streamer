@@ -37,7 +37,6 @@ export class JobService {
           .db()
           .collection(collectionName);
 
-        /* Drop the existing collection in the local db */
         const theLocalCollection = localDbClient
           .db()
           .collection(collectionName);
